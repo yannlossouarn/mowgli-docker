@@ -1,3 +1,7 @@
 ros
 .idea
 .DS_Store
+.vscode/settings.json
+config/db/000000000.data
+config/db/config.json
+config/db/lock
