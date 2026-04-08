@@ -1,6 +1,5 @@
-# Robot footprint polygon (base_link = wheel axis centre)
-# front=0.473m, rear=0.100m, half_width=0.212m (adjust to match your robot)
-footprint: [[ 0.473,  0.212], [ 0.473, -0.212], [-0.100, -0.212], [-0.100,  0.212]]
+#footprint: [[x0, y0], [x1, y1], ... [xn, yn]]
+robot_radius: 0.0
 
 global_frame: map
 robot_base_frame: base_link
