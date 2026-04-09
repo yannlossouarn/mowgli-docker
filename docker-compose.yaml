@@ -143,6 +143,7 @@ services:
       OM_NO_COMMS: "true" #FALSE if you are using other board than mowgli
       ROSCONSOLE_CONFIG_FILE: /config/rosconsole.config   # comment this line out to enable more logs
       ROSOUT_DISABLE_FILE_LOGGING: "true"                   # comment this line out to enable more logs
+      OM_DEVELOPMENT_PREVENT_NODE_RESPAWN: "true" # set to "true" to prevent node respawn on crash, useful for debugging
     tmpfs: /root/.ros/log                          # comment this line out to enable persistent logs
     volumes:
       - ./config/om:/config
