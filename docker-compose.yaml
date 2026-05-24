@@ -17,7 +17,7 @@ services:
       "com.centurylinklabs.watchtower.enable": true
       project: openmower
       app: gui
-    image: ghcr.io/cedbossneo/openmower-gui:v2
+    image: ghcr.io/yannlossouarn/openmower-gui:feat-lazy-ros-subscriptions
     restart: unless-stopped
     network_mode: host
     privileged: true
