@@ -1,0 +1,5 @@
+# Default GPS params for Mowgli (ZED-F9P via USB).
+# These values are immediately overridden by OM_GPS_PORT and OM_GPS_BAUDRATE env vars
+# set in mower_config.sh, so they serve only as a fallback.
+serial_port: "/dev/gps"
+baudrate: 460800
