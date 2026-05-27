@@ -1,5 +1,6 @@
 ## Build from the official upstream OpenMower repository image
 ## (yannlossouarn fork: Clemens main merged + Mowgli adaptations + local fixes)
+## Includes: IMU yaw deadband disabled, max_follow_distance 1.5m, speed_angular 20
 FROM ghcr.io/yannlossouarn/open_mower_ros_mowgli:migrate-to-clemens-main
 #FROM ghcr.io/clemenselflein/open_mower_ros:latest
 
