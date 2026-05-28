@@ -1,0 +1,4 @@
+# User-specific parameter overrides (loaded last, takes precedence over defaults)
+mower_logic:
+  max_obstacle_skips_per_segment: 0
+  docking_approach_distance: 0.8
