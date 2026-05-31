@@ -1,5 +1,10 @@
-# User-specific parameter overrides (loaded last, takes precedence over defaults)
-mower_logic:
-  max_obstacle_skips_per_segment: 0
-  docking_approach_distance: 0.8
-  use_teb_for_transition: true
+# NOTE: This file is NOT loaded — the stack runs in legacy config mode
+# (OM_LEGACY_CONFIG_MODE=True, set in start_mowgli.sh), which skips the YAML
+# override branch of _params.launch. Put overrides in config/om/mower_config.sh
+# as OM_* env vars instead (wired via <param> lines in _params.launch).
+#
+# Previously-dead entries here, now migrated to mower_config.sh:
+#   mower_logic/docking_approach_distance      -> OM_DOCKING_APPROACH_DISTANCE=0.8
+#   mower_logic/max_obstacle_skips_per_segment -> OM_MAX_OBSTACLE_SKIPS_PER_SEGMENT=0
+#   xbot_positioning/imu_yaw_deadband          -> OM_IMU_YAW_DEADBAND=0.03
+#   mower_logic/use_teb_for_transition         -> dropped (not read by current code)

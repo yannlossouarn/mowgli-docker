@@ -43,3 +43,7 @@ export OM_ANTENNA_OFFSET_X="0.3"
 export OM_MOWING_MOTOR_TEMP_HIGH="80"
 export OM_AUTOMATIC_MODE="MANUAL"
 export OM_DATUM_LAT="48.72838862472293"
+# Migrated from params/mower_params.yaml (not loaded in legacy config mode).
+export OM_DOCKING_APPROACH_DISTANCE="0.8"
+export OM_MAX_OBSTACLE_SKIPS_PER_SEGMENT="0"
+export OM_IMU_YAW_DEADBAND="0.03"
