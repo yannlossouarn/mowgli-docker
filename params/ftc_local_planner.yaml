@@ -28,3 +28,10 @@ FTCPlanner:
   speed_fast_threshold: 0.3
   speed_fast_threshold_angle: 5.0
   speed_slow: 0.15
+  # Rotor-load throttle (mowing only; rotor_rpm_threshold is overridden from
+  # OM_MOW_RPM_THRESHOLD via _move_base.launch).
+  rotor_throttle_enabled: true
+  rotor_rpm_threshold: 2800.0
+  rotor_throttle_min_factor: 0.2
+  rotor_spinup_timeout: 8.0
+  rotor_signal_timeout: 2.0

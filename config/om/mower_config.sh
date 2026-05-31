@@ -47,3 +47,6 @@ export OM_DATUM_LAT="48.72838862472293"
 export OM_DOCKING_APPROACH_DISTANCE="0.8"
 export OM_MAX_OBSTACLE_SKIPS_PER_SEGMENT="0"
 export OM_IMU_YAW_DEADBAND="0.03"
+# Min mowing rotor RPM: below it the robot throttles forward speed, and it waits for
+# the rotor to reach this before moving forward (FTCPlanner rotor-load throttle).
+export OM_MOW_RPM_THRESHOLD="2800"
